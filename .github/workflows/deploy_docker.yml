@@ -2,7 +2,7 @@ name: Build and Deploy to Google Compute Engine
 
 on:
   push:
-      branches: [ main ]
+      branches: [ master ]
       paths:
         - 'part2/04-cicd/**'
 
